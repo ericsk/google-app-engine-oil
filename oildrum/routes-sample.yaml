@@ -1,0 +1,28 @@
+# This YAML file defines the routing rules. 
+# 
+# The item "routes" is an array of rules.
+# Each rule contains a mandatory pattern and an optional regex
+# and optional parameters.
+# 
+# EXAMPLE
+# -------
+# routes:
+# - rule: /
+#   parameters: 
+#     controller: welcome
+#     action: index
+# - rule: /:controller/:action/:key
+# - rule: /:controller/:action
+# - rule: /:controller
+#
+# TODO: add an example on regex.
+
+routes:
+- rule: /
+  parameters: 
+    controller: welcome
+    action: index
+- rule: /:controller/:action/:key
+- rule: /:controller/:action
+- rule: /:controller
+
